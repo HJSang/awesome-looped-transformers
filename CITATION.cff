@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "Awesome Looped Transformers: papers, code and blogs on recurrent-depth Transformers"
+message: >-
+  If you find this repository useful for your research,
+  please cite it using the metadata from this file (or via
+  the "Cite this repository" button on the GitHub page).
+type: software
+authors:
+  - given-names: "Hejian"
+    family-names: "Sang"
+    alias: "HJSang"
+abstract: >-
+  Awesome Looped Transformers is a curated, continuously updated list of
+  papers, open-source code, released models, and technical blogs on looped
+  (recurrent-depth, weight-tied, universal, recursive) Transformers:
+  architectures that reuse a shared block of layers several times inside a
+  single forward pass to trade compute for effective depth. Entries are
+  annotated by loop topology, depth control, input injection, training origin,
+  and scale, and organised into surveys and foundations, theory, mechanistic
+  analysis, pretrained looped language models, stability and scaling laws,
+  adaptive depth, retrofitting pretrained LLMs, efficient training and
+  serving, latent-reasoning objectives, recursive reasoners (HRM/TRM/DEQ),
+  applications, production models and reports, frameworks, and blogs.
+keywords:
+  - "looped transformers"
+  - "recurrent depth"
+  - "depth recurrence"
+  - "universal transformers"
+  - "weight tying"
+  - "latent reasoning"
+  - "test-time compute"
+  - "adaptive computation"
+  - "deep equilibrium models"
+  - "large language models"
+  - "awesome list"
+repository-code: "https://github.com/HJSang/awesome-looped-transformers"
+url: "https://github.com/HJSang/awesome-looped-transformers"
+license: MIT
+date-released: "2026-09-04"
