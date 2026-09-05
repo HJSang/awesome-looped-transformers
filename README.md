@@ -55,7 +55,7 @@ Taxonomy:
 
 Shorthand: **K** = number of loop iterations · **UT** = Universal Transformer · **ACT** = Adaptive Computation Time · **DEQ** = Deep Equilibrium Model · **HRM/TRM** = Hierarchical / Tiny Recursive Model · **MoR** = Mixture-of-Recursions · `📄 paper-only` = no public code yet.
 
-> 📖 **Companion notes:** [Types of Looped Transformers — a field guide](docs/looped-transformer-taxonomy.md) · [Speculative Decoding for Looped Transformers — survey & research proposal](docs/speculative-decoding-for-looped-transformers.md) · [Starting from DFlash / MTP: exploiting the loop on top of conventional speculative decoding](docs/spec-decoding-on-top-of-dflash-mtp.md) — the five loop topologies plus depth-control, injection and origin axes, with schematics and figures pulled from the 15 representative papers.
+> 📖 **Companion notes:** [Types of Looped Transformers — a field guide](docs/looped-transformer-taxonomy.md) · [Speculative Decoding for Looped Transformers — survey & research proposal](docs/speculative-decoding-for-looped-transformers.md) · [Starting from DFlash / MTP: exploiting the loop on top of conventional speculative decoding](docs/spec-decoding-on-top-of-dflash-mtp.md) · [From first principles: how a looped architecture changes speculative decoding](docs/first-principles-loops-and-speculation.md) — the five loop topologies plus depth-control, injection and origin axes, with schematics and figures pulled from the 15 representative papers.
 
 ## Updates
 
