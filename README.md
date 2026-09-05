@@ -55,6 +55,8 @@ Taxonomy:
 
 Shorthand: **K** = number of loop iterations · **UT** = Universal Transformer · **ACT** = Adaptive Computation Time · **DEQ** = Deep Equilibrium Model · **HRM/TRM** = Hierarchical / Tiny Recursive Model · **MoR** = Mixture-of-Recursions · `📄 paper-only` = no public code yet.
 
+> 📖 **Companion note:** [Types of Looped Transformers — a field guide](docs/looped-transformer-taxonomy.md) — the five loop topologies plus depth-control, injection and origin axes, with schematics and figures pulled from the 15 representative papers.
+
 ## Updates
 
 <details>
