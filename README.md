@@ -14,7 +14,7 @@
 ![Adaptive](https://img.shields.io/badge/Adaptive_Depth-12-9B59B6?style=for-the-badge)
 <br>
 ![Retrofit](https://img.shields.io/badge/Retrofitting_LLMs-11-FF69B4?style=for-the-badge)
-![Efficiency](https://img.shields.io/badge/Efficient_Train_&_Serve-10-2ECC71?style=for-the-badge)
+![Efficiency](https://img.shields.io/badge/Efficient_Train_&_Serve-11-2ECC71?style=for-the-badge)
 ![LatentReasoning](https://img.shields.io/badge/Latent_Reasoning_Objectives-9-1F4CAD?style=for-the-badge)
 <br>
 ![Recursive](https://img.shields.io/badge/Recursive_Reasoners-13-D89F7B?style=for-the-badge)
@@ -321,6 +321,7 @@ Start from an existing feed-forward LLM and make it loop — with continued trai
 | [Looped Diffusion LMs](https://arxiv.org/abs/2605.26106) | [![Paper](https://img.shields.io/badge/📄-paper-845C40?style=for-the-badge)](https://arxiv.org/abs/2605.26106) | 2026.05 | Lee, Hong, Kim, … | [arXiv 2605.26106](https://arxiv.org/abs/2605.26106) | **Looped Diffusion Language Models** — loop early-middle layers of a masked diffusion LM; depth scaling at train time, loop count as a knob at inference |
 | [MixerLoop](https://arxiv.org/abs/2608.18230) | [![Paper](https://img.shields.io/badge/📄-paper-845C40?style=for-the-badge)](https://arxiv.org/abs/2608.18230) | 2026.08 | UC Santa Cruz (Lin, Guo, Zhu, Ye, Eshraghian) | [arXiv 2608.18230](https://arxiv.org/abs/2608.18230) | **Allocating Recurrent Compute in Looped Language Models** — loop only the Gated-DeltaNet token mixer and run the dense FFN once; keeps the recurrent-depth gain at lower projection cost and higher prefill throughput |
 | [Continuous Depth Batching](https://arxiv.org/abs/2608.09444) | [![Paper](https://img.shields.io/badge/📄-paper-845C40?style=for-the-badge)](https://arxiv.org/abs/2608.09444) | 2026.08 | TUM | [arXiv 2608.09444](https://arxiv.org/abs/2608.09444) | serving-side scheduling for adaptive-depth looped LMs (cross-listed from 🔀) |
+| [FlashLoop](https://github.com/Superone77/FlashLoop) | <img src="https://img.shields.io/github/stars/Superone77/FlashLoop?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=ffd700" alt="Stars"> | 2026.09 | ELLIS Tübingen / MPI-IS / Tübingen AI Center (Yang, Liu) | [arXiv 2609.29812](https://arxiv.org/abs/2609.29812) | **FlashLoop: Fast and Memory-Efficient Looped Transformers via Lazy Updates** — training-free token-sparse updates, sparse attention, and KV-residual quantization across repeated shared Transformer blocks; retains the configured loop count while reducing work and storage per loop |
 | [FLOPs & Memory Ablation Chain](https://huskydoge.github.io/husky-blog/posts/recursive_models/loop-cost/) | [![Blog](https://img.shields.io/badge/blog_post-cost_model-blue?style=for-the-badge)](https://huskydoge.github.io/husky-blog/posts/recursive_models/loop-cost/) | 2026.04 | Benhao Huang | [Blog](https://huskydoge.github.io/husky-blog/posts/recursive_models/loop-cost/) | **Loop-Model FLOPs and Memory in an Ablation Chain** — seven progressive variants (shared vs unshared weights, per-step losses, detach, truncation, checkpointing) with a toy benchmark; the practical cost model for training loops |
 
 ---
